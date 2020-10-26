@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orders Page </title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- The section of the form to write the order -->
+    <div class="container">
+
+            <div class="form-group">
+                <label > Name :</label>
+                <input type="text" class=" form-control" id="inpname">
+            </div>
+
+            <div class="form-group">
+                <label > Price :</label>
+                <input type="text" class=" form-control" id="inpPrice">
+            </div>
+
+            <div class="form-group">
+                <label > DeliveryDate :</label>
+                <input type="date" class=" form-control" id="inpdate">
+            </div>
+
+            <div class="form-group">
+                <label > Mobile Number :</label>
+                <input type="text" class=" form-control" id="inpNumber">
+            </div>
+
+            <div class="form-group">
+                <label > Descripton :</label>
+                <textarea type="text" class=" form-control" id="inpDesc"> </textarea>
+            </div>
+            <button onclick="addOrder(); " class="btn btn-outline-info mb-3" id="addOrder">Add Order </button>
+    </div>
+        
+    <!-- The section of the orders -->
+    <div class="container">
+        <div class="row"  id="every">
+         
+
+         
+           
+           
+        </div>
+    </div>
+
+
+
+  
+
+    <script src="main.js"></script>
+</body>
+</html>
